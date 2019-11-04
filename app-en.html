@@ -1,0 +1,38 @@
+﻿ <!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<!--Cache disabled for instant updated prices-->
+  <meta charset="utf-8">
+  <meta http-Equiv="Cache-Control" Content="no-cache" />
+  <meta http-Equiv="Pragma" Content="no-cache" />
+  <meta http-Equiv="Expires" Content="0" />
+  <title>Google Charts + D3js Test</title>
+  <link rel="stylesheet" href="lib/bootstrap-latest.min.css">
+  <link rel="stylesheet" href="lib/google-charts.css">
+  <script type="text/javascript" src="lib/jquery.min.js"></script>
+  <script type="text/javascript" src="lib/fetch.min.js"></script>
+  <script type="text/javascript" src="lib/google-charts-loader.js"></script>
+  <script type="text/javascript" src="lib/d3.v5.min.js"></script>
+  <script type="text/javascript" src="integration-en.js"></script>
+</head>
+
+<body onload="initialZoom();">
+  <!--Div that will hold the pie chart-->
+  <div>
+    <!--<div id="chart_div" style="width:700px; height:500px; margin:auto; padding:2px;"></div>-->
+	   <div id="chart_div" style="max-width:100%; height:500px;"></div>
+    <div id="buttons_div" style="text-align: center;">
+      <button id="oneMonth" class="button btn gButton" type="button">1 month</button>
+      <button id="threeMonths" class="button btn gButton" type="button">3 months</button>
+      <button id="sixMonths" class="button btn gButton" type="button">6 months</button>
+      <button id="oneYear" class="button btn gButton" type="button">1 year</button>
+      <button id="threeYears" class="button btn gButton" type="button">3 years</button>
+      <button id="fiveYears" class="button btn gButton" type="button"> 5 years</button>
+      <button id="All" class="button btn gButton" type="button"> All</button>
+    </div>
+  </div>
+
+</body>
+
+</html>
