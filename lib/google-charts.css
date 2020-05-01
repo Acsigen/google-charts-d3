@@ -1,0 +1,14 @@
+.gButton {
+  background-color: #020f5e;
+  color: white;
+}
+
+.gButton:hover {
+  background-color: #7180b9;
+  color: white;
+}
+
+.gButtonClicked {
+  background-color: #7180b9;
+  color: white;
+}
